@@ -1,0 +1,100 @@
+
+body{
+    background-color: rgb(235, 225, 235);
+}
+nav{
+    display: flex;
+    background-color: rgb(235, 225, 235);
+    color: orangered;
+    margin-bottom: 0%;
+    position: fixed;
+    top: 0vw;
+}
+
+.main{
+    height: 600vw;
+    background-image: url(./pexel.jpeg);
+    background-size: 100% 100%;
+    margin-top: 0%;
+
+}
+
+img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h2{
+    margin-left: 40px;
+}
+.explore{
+    margin-left: 700px;
+}
+.license{
+    margin-left: 40px;
+}
+.upload{
+    margin-left: 40px;
+}
+.fa-ellipsis-h{
+    margin-top: 22px;
+    margin-left: 40px;
+}
+#join{
+    background-color: rgb(19, 230, 177);
+    color: #ffffff;
+    height: 30px;
+    width: 80px;
+    margin-top: 17px;
+    margin-left: 40px;
+}
+.text{
+    color: #f82626;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+
+}
+.text1{
+    color: #f82626;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.text2{
+    color: #f82626;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
+input{
+    height: 60px;
+    width: 700px;
+    margin-left: 300px;
+    margin-right: 0px;
+    margin-top: 200px;
+    border-radius: 12px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 1px solid #efefef;
+}
+#search{
+    height: 64px;
+    width: 100px;
+    margin-left: -4px;
+    border-radius: 12px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 1px solid #efefef;
+    background-color: #ffffff;
+}
+@media (max-width: 800vw) {
+
+    .main{
+        background-image: url(./pexels-photo-10204555.jpeg);
+    }
+    
+
+}
